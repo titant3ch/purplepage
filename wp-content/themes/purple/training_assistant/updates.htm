@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Training Assistant</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default2.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<p>Recent Updates:</p>
+				<p><ul>
+				<li>6/24 - Official integration of Purple Page. </li>
+				<li>5/19 - Official integration of Autogen. </li>
+				<li>3/23 - Added Autogen Tool to Training Assistant pages. </li>
+				<li>1/18 - Java Error fix, Updated navigation.</li>
+				<li>1/6 - Added Sister Solutions tool to Probing Questions pages.</li>
+				<li>1/6 - Updated Probing Questions for Claims Online</li>
+				<li>1/5 - Added FedEx Rates and Surcharges Table to Fedex.com KB section</li>
+				<li>1/4 - Added Approved Headers tool</li>
+				<li>12/22 - Added Freight KBs</li>
+				<li>12/16 - Content / Cosmetic updates</li>
+				<li>11/4 - Added Claims, Smartpost, Freight information. Updated KBs and probing questions</li>
+				<li>9/10 - Updated FXCT KB Section with Smartpost HUBID KB</li>
+				<li>6/30 - KBs to Fedex.com section - Smartpost, Smartpost Military, ETD, & Hazmat</li>
+				<li>6/21/10 - Second Release of web-based tool </li>
+				</ul>
+				</p>
+
+<script language="JavaScript1.2">
+
+var speed, currentpos=curpos1=0,alt=1,curpos2=-1
+
+function initialize(){
+if (window.parent.scrollspeed!=0){
+speed=window.parent.scrollspeed
+scrollwindow()
+}
+}
+
+function scrollwindow(){
+temp=(document.all)? document.body.scrollTop : window.pageYOffset
+alt=(alt==0)? 1 : 0
+if (alt==0)
+curpos1=temp
+else
+curpos2=temp
+
+window.scrollBy(0,speed)
+}
+
+setInterval("initialize()",10)
+
+</script>
+
+</body>
+</html>

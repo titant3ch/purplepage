@@ -1,0 +1,25 @@
+<html>
+<head>
+<script type="text/vbscript">
+function AddP(pName)
+msgbox "Start"
+Set WshNetwork = CreateObject("Wscript.Network")
+WshNetwork.AddWindowsPrinterConnection pName
+msgbox "Finished"
+end function
+</script>
+</head>
+<body>
+<center><h1>Adding the FSSC Printer</h1></center>
+
+<ol>
+<li> You must do this from IE. Real IE, not IE tab.
+<li>Accept any security warnings, otherwise it won't work.
+<li><a href='#' language="vbscript" onclick="AddP('\\intps1\PWB-FEDEX-XEROX7345')">Add printer</a>.
+<li>Be patient. Wait 65 seconds for a dialog box to say "Finished".
+<li>Check the results by going to Start, Devices and Printers, and look for PWB-FEDEX-XEROX7345 on intps1.
+</ol>
+
+Thanks.
+</body>
+</html>

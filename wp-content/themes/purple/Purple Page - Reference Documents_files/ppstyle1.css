@@ -1,0 +1,218 @@
+/* New Style Sheet for Purple Page */
+
+/* Universal rules for all pages */
+
+a:link {color: white;}      /* unvisited link */
+a:visited {color: white;}  /* visited link */
+a:hover {color: white;}  /* mouse over link */
+a:active {color: grey;}  /* selected link */
+
+
+table {border-collapse: collapse; background-image: url('graybackground.jpg'); background-size: cover; border: 2px solid black; table-layout: fixed;}
+
+mark {color: #FFCC00; background-color: black;}
+
+body {font-family: Cambria, Arial, Helvetica, sans-serif; margin: 0px 4px 4px 4px; color: white;}
+
+.bigbody {background: #660099;}
+
+/* How would this look as a background?
+
+background: rgb(184,0,201); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(184,0,201,1) 0%, rgba(216,117,216,1) 74%, rgba(221,177,218,1) 98%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(184,0,201,1)), color-stop(74%,rgba(216,117,216,1)), color-stop(98%,rgba(221,177,218,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(184,0,201,1) 0%,rgba(216,117,216,1) 74%,rgba(221,177,218,1) 98%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(184,0,201,1) 0%,rgba(216,117,216,1) 74%,rgba(221,177,218,1) 98%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(184,0,201,1) 0%,rgba(216,117,216,1) 74%,rgba(221,177,218,1) 98%); /* IE10+ */
+background: linear-gradient(to right,  rgba(184,0,201,1) 0%,rgba(216,117,216,1) 74%,rgba(221,177,218,1) 98%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b800c9', endColorstr='#ddb1da',GradientType=1 ); /* IE6-9 */
+
+*/
+
+.top {width: 900px; height: 150px; color: white;}
+
+.title2 {width: 890px; height: 100%; background-color:  #00CC00; box-shadow: 7px 7px 3px black; margin: 10px;  text-align: center; line-height: 2.5em;} 
+
+.bighead {font-size: 70px; margin: 0; padding: 20px; padding-top: 20px;} 
+
+.smallhead {font-size: 40px; padding: 15px; margin:0;}
+
+.headimg {position: absolute; left: 910px; top: 0; margin: 10px; padding-left: 15px; padding-right: 13px;}
+
+#planeflight { width: 250px; height: 158px; margin: 0;}
+
+.middle {position: absolute; top: 175px; width: 1175px; height: 800px; margin-top: 2px; border-top-style: ridge; border-top-color: white; border-top-width: 7px; margin-bottom: 30px;}
+
+.lcolumn {border-right-style: ridge; border-right-color: white; border-right-width: 7px; float: left; width: 200px; margin-left: 2px}
+
+.navi {line-height: 75%; font-weight: bold; list-style-position:inside; padding-left: 10px; margin-top:30px;}
+
+.news {text-align: center; padding-right: 10px; margin-top: 25px;}
+
+#newshead {font-weight: bold; color: #FFCC00;}
+
+#workinghard { height: 75px; width: 75px; }
+
+#jat {border: 4px dotted #FF0033;}
+
+#jath {font-weight: bold; font-size: 25px; color: #FF0033;}
+
+#motto {font-weight: bold; font-style: italic; font-size: 20px; color: #FFCC00;}
+
+#mottohead {text-decoration: underline; }
+
+.contact {border-top: 4px solid lightgrey; padding: 3px; text-align: center; color: #0099CC; font-weight: bold;}
+
+a.two:link, a.two:visited, a.two:hover, a.two:active {color:#0099CC; font-weight: bold; text-decoration: none; font-style: none; cursor: text;} 
+
+.meat {position: absolute; left: 220px; margin-top: 20px;}
+
+.inop {color: black;}
+
+h3 {color: #FF0033; }
+
+h4 {color: #FF0033;}
+
+/* .initiallyHidden { display: none; } */
+
+
+
+
+
+/*  Link page  */
+
+.links {float: left;}
+
+#fedexlinks, #adlinks, #hhlinks { border-bottom: 2px solid #00CC00; font-weight: bold; margin: 1em; line-height: 1.2em;}
+
+
+
+/* Number page (1)*/
+
+table.numbers {font-size: 18px; width: 920px; margin-top: 10px;}
+
+th, td {border: 2px solid black;}
+
+table#ldc {text-align: center; }
+
+#firstnumbs {margin-top: 50px;}
+
+tr#needsblue  {font-size: 25px; color: white; font-weight: normal;
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e5799 0%, #207cca 33%, #2989d8 35%, #0099cc 44%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(33%,#207cca), color-stop(35%,#2989d8), color-stop(44%,#0099cc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #1e5799 0%,#207cca 33%,#2989d8 35%,#0099cc 44%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #1e5799 0%,#207cca 33%,#2989d8 35%,#0099cc 44%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #1e5799 0%,#207cca 33%,#2989d8 35%,#0099cc 44%); /* IE10+ */
+background: linear-gradient(to right,  #1e5799 0%,#207cca 33%,#2989d8 35%,#0099cc 44%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#0099cc',GradientType=1 ); /* IE6-9 */ /* This is all from "http://www.colorzilla.com/gradient-editor/" which is awesome. */
+}
+
+
+
+/* Quality Page (2) */
+
+#quality, #nexushead, #sistersolutions {border-bottom: 2px solid #00CC00; padding: 10px; font-weight: bold; line-height: 1.2em;}
+
+#quality {position: absolute; border-bottom: 2px solid #00CC00; width: 650px; height: 160px; }
+
+#qual1 {position: absolute; width: 200px; padding: 5px;}
+
+#qual2 {position: absolute; width: 200px; left: 220px; padding: 5px; margin: 2px;}
+
+#qual3 {position: absolute; width: 200px; left: 440px; padding: 5px;}
+
+#nexushead {position: absolute; top: 200px; width: 650px;}
+ 
+#sistersolutions {position: absolute; top: 450px; width: 650px; }
+
+#qualhead {text-align: center;}
+
+
+
+/* Documents Page (3) */
+
+.docopen {width: 500px;}
+
+.docdown {width: 500px;}
+
+.docopen, .docdown {border-bottom: 2px solid #00CC00; font-weight: bold; margin: 1em; list-style-type: square; line-height: 1.2em;}
+
+
+
+
+/* Useful information Page (4)*/
+
+
+
+.uisections {border-bottom: 2px solid #00CC00; padding 10px; }  /*  class="uisections" */
+
+#buddypods {width: 660px;}
+
+#gtmlogins {text-align: center; width: 500px; margin: 25px; }
+
+.uihead {text-align: center;}
+
+#webinaragents {border-right: 2px solid #00CC00; width: 350px; height: 170px; margin-bottom: 10px; }
+
+#spanishagents {width: 300px; height: 170px; position: absolute; left: 400px; top: 520px; }
+
+#natoalpha {margin: 15px; width: 300px; height: 300px; position: absolute; left: 670px; top: 30px;}
+
+td.uihead {font-size: 25px; color: white; font-weight: normal;
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e5799 0%, #207cca 33%, #2989d8 35%, #0099cc 44%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(33%,#207cca), color-stop(35%,#2989d8), color-stop(44%,#0099cc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #1e5799 0%,#207cca 33%,#2989d8 35%,#0099cc 44%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #1e5799 0%,#207cca 33%,#2989d8 35%,#0099cc 44%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #1e5799 0%,#207cca 33%,#2989d8 35%,#0099cc 44%); /* IE10+ */
+background: linear-gradient(to right,  #1e5799 0%,#207cca 33%,#2989d8 35%,#0099cc 44%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#0099cc',GradientType=1 ); /* IE6-9 */ /* This is all from "http://www.colorzilla.com/gradient-editor/" which is awesome. */
+}
+
+
+/* Training Guides (5) */
+
+
+.guides1 {border-bottom: 2px solid #00CC00; font-weight: bold; margin: 1em; list-style-type: square; line-height: 1.4em; width: 900px; }
+
+.tgg {border-bottom: 2px solid #00CC00}
+
+
+
+
+/* Quick KB Page (6) */
+
+.kbtable {margin: 20px; width: 920px;}
+
+.kbtable th, .kbtable td {border: 2px solid black; height: 20px; text-align: center;}
+
+#kbn {width: 150px; font-size:25px;}
+
+#desc {width: 620px; font-size:25px;}
+
+td.tablediv {font-size: 15px; color: white; font-weight: normal; text-align: left; 
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e5799 0%, #207cca 33%, #2989d8 35%, #0099cc 44%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(33%,#207cca), color-stop(35%,#2989d8), color-stop(44%,#0099cc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #1e5799 0%,#207cca 33%,#2989d8 35%,#0099cc 44%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #1e5799 0%,#207cca 33%,#2989d8 35%,#0099cc 44%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #1e5799 0%,#207cca 33%,#2989d8 35%,#0099cc 44%); /* IE10+ */
+background: linear-gradient(to right,  #1e5799 0%,#207cca 33%,#2989d8 35%,#0099cc 44%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#0099cc',GradientType=1 ); /* IE6-9 */ /* This is all from "http://www.colorzilla.com/gradient-editor/" which is awesome. */
+}
+
+
+
+/*    
+Ground green: #00CC00  x
+Custom Critical Blue #0099CC  x
+Express orange: #FF6600  x
+freight Red: #FF0033   x
+Trade networks yellow: #FFCC00   x
+fedex purple: #660099  x
+
+
+*/
+
+/* cursor:url(whatever.gif),url(.cur?),auto; */
